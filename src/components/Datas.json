@@ -1,0 +1,148 @@
+{
+   "products":[
+    { "id":1,
+      "name":"Butter Buscuit",
+      "category":"Biscuits",
+      "image":"/products/ButterBuscuit.webp",
+      "Price":100   
+    },
+    { "id":2,
+      "name":"Butter Suji Buscuit",
+      "category":"Biscuits",
+      "image":"/products/ButterSujiBiscuit.jpg",
+      "Price":100  
+    },
+    { "id":3,
+      "name":"Elachi Cashew Buscuit",
+      "category":"Biscuits",
+      "image":"/products/ElachiCashewBuscuit.jpg",
+      "Price":100   
+    },
+    { "id":4,
+      "name":"Ginger Butter Biscuit",
+      "category":"Biscuits",
+      "image":"/products/GingerButterBuscuit.jpg",
+      "Price":100   
+    },
+    { "id":5,
+      "name":"Vanilla Buscuit",
+      "category":"Biscuits",
+      "image":"/products/GlucoseVanillaBiscuit.jpg",
+      "Price":100   
+    },
+       { "id":6,
+      "name":"Ragi Buscuit",
+      "category":"Biscuits",
+      "image":"/products/RagiBiscuit.webp",
+      "Price":100   
+    },
+       { "id":7,
+      "name":"Wheat Buscuit",
+      "category":"Biscuits",
+      "image":"/products/WheatBiscuits.webp",
+      "Price":100   
+    },
+      { "id":8,
+      "name":"Veg Puffs",
+      "category":"puffs",
+      "image":"/products/Veg-Puff.jpg",
+      "Price":100   
+    },
+    { "id":9,
+      "name":"Paneer Puffs",
+      "category":"puffs",
+      "image":"/products/PaneerPuff.webp",
+      "Price":100   
+    },
+    { "id":10,
+      "name":"Chicken Puffs",
+      "category":"puffs",
+      "image":"/products/ChickenPuff.webp",
+      "Price":100   
+    },
+    { "id":11,
+      "name":"Egg Puffs",
+      "category":"puffs",
+      "image":"/products/EggPuff.jpg",
+      "Price":100   
+    },
+    { "id":12,
+      "name":"Zeera Puffs",
+      "category":"puffs",
+      "image":"/products/ZeerPuff.jpg",
+      "Price":100   
+    },
+    { "id":13,
+      "name":"Almond Cake",
+      "category":"Cakes",
+      "image":"/products/AlmondCake.jpg",
+      "Price":250   
+    },
+    { "id":14,
+      "name":"Black Forest Cake",
+      "category":"Cakes",
+      "image":"/products/BlackforestCake.jpg",
+      "Price":250   
+    },
+    { "id":15,
+      "name":"Chocolate Cake",
+      "category":"Cakes",
+      "image":"/products/ChocolateCake.jpg",
+      "Price":250   
+    },
+    { "id":16,
+      "name":"Fruit Cake",
+      "category":"Cakes",
+      "image":"/products/FruitCake.jpg",
+      "Price":250   
+    },
+    { "id":17,
+      "name":"Lemon Cake",
+      "category":"Cakes",
+      "image":"/products/LemonCake.webp",
+      "Price":250   
+    },
+     { "id":18,
+      "name":"Vanilla Cake",
+      "category":"Cakes",
+      "image":"/products/VanillaCake.jpg",
+      "Price":250   
+    },
+    { "id":19,
+      "name":"Burger",
+      "category":"Bread",
+      "image":"/products/Burger.jpg",
+      "Price":250   
+    },
+    { "id":20,
+      "name":"Multi rain Bread",
+      "category":"Bread",
+      "image":"/products/MultiGrainBread.jpg",
+      "Price":250   
+    },
+    { "id":21,
+      "name":"White Bread",
+      "category":"Bread",
+      "image":"/products/WhiteBread.webp",
+      "Price":250   
+    },
+    { "id":22,
+      "name":"Butter Bread",
+      "category":"Bread",
+      "image":"/products/ButteredBread.jpg",
+      "Price":250   
+    },
+    { "id":22,
+      "name":"Tortilla",
+      "category":"Bread",
+      "image":"/products/Tortilla.jpg",
+      "Price":250   
+    },
+    { "id":22,
+      "name":"Brown Bread",
+      "category":"Bread",
+      "image":"/products/BrownBread.jpg",
+      "Price":250   
+    }
+   ]
+}
