@@ -139,9 +139,33 @@
       "Price":250   
     },
     { "id":22,
-      "name":"Brown Bread",
-      "category":"Bread",
-      "image":"/products/BrownBread.jpg",
+      "name":"Chicken Roll",
+      "category":"Rolls",
+      "image":"/products/ChickenRoll.jpg",
+      "Price":250   
+    },
+    { "id":23,
+      "name":"Chowmein Roll",
+      "category":"Rolls",
+      "image":"/products/ChowmeinRoll.jpg",
+      "Price":250   
+    },
+    { "id":24,
+      "name":"Malai Tikka Roll",
+      "category":"Rolls",
+      "image":"/products/MalaiTikkaRoll.jpg",
+      "Price":250   
+    },
+    { "id":25,
+      "name":"Paneer Roll",
+      "category":"Rolls",
+      "image":"/products/PaneerRoll.jpg",
+      "Price":250   
+    },
+    { "id":26,
+      "name":"Spring Roll",
+      "category":"Rolls",
+      "image":"/products/SpringRoll.jpg",
       "Price":250   
     }
    ]

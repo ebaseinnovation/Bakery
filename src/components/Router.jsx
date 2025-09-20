@@ -7,6 +7,7 @@ import Contact from "../pages/Contact";
 import Services from "../pages/Services";
 import Cart from "../pages/Cart";
 import Layout from "./Layout";
+import Order from "../pages/Order";
 
 const Router = () => {
   return (
@@ -19,6 +20,7 @@ const Router = () => {
           <Route path="services" element={<Services />} />
           <Route path="contact-us" element={<Contact />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="order" element={<Order />} />
         </Route>
       </Routes>
     </BrowserRouter>

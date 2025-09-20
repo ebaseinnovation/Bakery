@@ -2,11 +2,16 @@ import React, { useState } from "react";
 import ProductsData from "../components/Datas.json";
 import { useDispatch } from "react-redux";
 import { increment, alertOn } from "../features/cartSlice";
+import { cartAdded } from "../features/newcartSlice";
+import { nanoid } from "@reduxjs/toolkit";
 
 const Product = () => {
   const dispatch = useDispatch();
   const dataSamples = ProductsData.products;
   const [items, setItems] = useState(dataSamples);
+  const [productName, setProductName] = useState("");
+  const [productQty, setProductQty] = useState(0);
+  const [productPrice, setProductPrice] = useState(0);
 
   const filterItems = (catItem) => {
     const updateItem = dataSamples.filter((curItem) => {
@@ -15,8 +20,23 @@ const Product = () => {
     setItems(updateItem);
   };
 
-  const handleClick = () => {
+  const handleClick = (name, price) => {
+    // setProductName(name);
+    // setProductPrice(price);
+    // setProductQty(1);
     dispatch(alertOn());
+    dispatch(
+      cartAdded({
+        id: nanoid(),
+        name: name,
+        qty: 1,
+        price: price,
+        amount: price,
+      })
+    );
+    setProductName("");
+    setProductQty(0);
+    setProductPrice(0);
   };
 
   return (
@@ -56,7 +76,10 @@ const Product = () => {
         >
           Breads
         </button>
-        <button className="bg-amber-200 text-sm px-5 py-2 rounded-2xl text-amber-900 font-semibold font-poppins cursor-pointer focus:border-1">
+        <button
+          onClick={() => filterItems("Rolls")}
+          className="bg-amber-200 text-sm px-5 py-2 rounded-2xl text-amber-900 font-semibold font-poppins cursor-pointer focus:border-1"
+        >
           Rolls
         </button>
         {/* <button className="bg-amber-200 text-sm px-3 py-2 rounded-2xl text-amber-900 font-semibold font-poppins cursor-pointer focus:border-1">
@@ -78,7 +101,7 @@ const Product = () => {
             <div className="flex flex-row justify-around items-center">
               <p className="sm:text-2xl font-semibold ">{`₹${item.Price}`}</p>
               <button
-                onClick={handleClick}
+                onClick={() => handleClick(item.name, item.Price)}
                 className="px-1 py-1 bg-amber-800 hover:bg-amber-500 focus:bg-amber-500 rounded cursor-pointer text-white"
               >
                 Add to Cart
